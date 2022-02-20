@@ -1,0 +1,26 @@
+.image {
+  height: 400px;
+  width: 400px;
+  border-radius: 25px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 500px) {
+  .image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .author {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+}
